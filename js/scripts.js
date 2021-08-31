@@ -54,11 +54,11 @@ window.addEventListener('DOMContentLoaded', event => {
 function sendMail() {
     var nom = document.getElementById("nom").value;
     var prenom = document.getElementById("prenom").value;
-    var email = document.getElementById("email").value;
+    //var email = document.getElementById("email").value;
     var subject = document.getElementById("subject").value;
     var raison = document.getElementById("raison").value;
 
-    var ebody = '\r\n' + 'Prénom: ' + prenom + '\r\n' + 'Nom: ' + nom + '\r\n' + 'Mail: ' + email;
+    var ebody = '\r\n' + 'Prénom: ' + prenom + '\r\n' + 'Nom: ' + nom; //+ '\r\n' + 'Mail: ' + email;
 
     document.getElementById('formContact').action = "mailto:test@gmail.com?subject="
         + encodeURIComponent(raison)
