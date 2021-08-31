@@ -101,7 +101,7 @@ footer{
 }
 #formContact {
   border-radius: 20px;
-  background-color: rgb(255 255 255 / 50%);
+  /* background-color: rgb(255 255 255 / 50%); */
   margin-left: 20%;
 }
 #formContact > input{
@@ -189,6 +189,9 @@ footer{
   cursor: crosshair;
 }
 /* ********************************************************** */
+
+
+
 
 
 
