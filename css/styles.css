@@ -14,6 +14,9 @@ body {
   display: none;
   border-radius: 15px;
 }
+.page-section {		
+  padding: 10rem 0;		
+}
 /* **************************OVERRIDE BOOTSTRAP****************** */
 .py-5 {
   padding-top: 1rem !important;
@@ -46,6 +49,10 @@ a:hover {
   position: sticky;
   top: 75px;
   z-index: 1020;
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
 }
 /* ******************************FOOTER*********************** */
 footer{
@@ -85,7 +92,10 @@ footer{
 }
 /* **************************CONTACT**************************** */
 #contact {
-  background: url(../assets/img/contact/contact.jpg) no-repeat 0em;
+  background: url(../assets/img/contact/contact.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #contact > div > div > div > form > div > label {
   color: black;
@@ -101,7 +111,7 @@ footer{
 }
 #formContact {
   border-radius: 20px;
-  /* background-color: rgb(255 255 255 / 50%); */
+  background-color: rgb(255 255 255 / 50%);
   margin-left: 20%;
 }
 #formContact > input{
@@ -188,26 +198,88 @@ footer{
 .container_Character:hover{
   cursor: crosshair;
 }
-/* ********************************************************** */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.page-section {		
-  padding: 10rem 0;		
+/* ************************CLANS******************************** */
+#clans {
+  background: url(../assets/img/news/news.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.container_Clan{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 25px;
+}
+.container_Clan:hover{
+  transform: scale(1.01);
+  box-shadow: 5px 4px 4px grey;
+}
+div > h3 {
+  text-align: center;
+}
+div > img {
+  float: left;
+  padding: 10px;
+}
+/* ****************************LIEUX******************************** */
+table > tbody > tr > td > img{
+  cursor: pointer;
+}
+.closebtn {
+  cursor: pointer;
+}
+#col {
+  display: flex;
+  flex-direction: row;
+}
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #aaa;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100%;
+}
+.fakeimg {
+  background-color: red;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border-color: black;
+}
+.fakeimg:hover{
+  cursor: pointer;
+}
+#col > div > h2{
+  text-align: center;
+}
+#col > div.main > h2 {
+  padding-top: 20px;
+}
+/* **************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text-white-75 {		
   color: white;		
 }
