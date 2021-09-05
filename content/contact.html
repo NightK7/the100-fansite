@@ -30,9 +30,10 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-center text-dark mt-0">Formulaire de contact</h2>
-                    <hr class="divider" />
-                    <form id="formContact" action="#" method="post" enctype="text/plain" onsubmit="sendMail()">
+                    <!-- <h2 class="text-center text-dark mt-0">Formulaire de contact</h2>
+                    <hr class="divider" /> -->
+
+                    <!-- <form id="formContact" action="#" method="post" enctype="text/plain" onsubmit="sendMail()">
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Nom</label>
                             <input type="text" id="nom" name="nom" class="form-control" id="exampleFormControlInput1"
@@ -43,11 +44,11 @@
                             <input type="text" id="prenom" name="prenom" class="form-control"
                                 id="exampleFormControlInput1" placeholder="Votre nom..." required="required">
                         </div>
-                        <!-- <div class="form-group">
+                        <div class="form-group">
                             <label for="exampleFormControlInput1">Adresse email</label>
                             <input type="email" id="email" name="email" class="form-control"
                                 id="exampleFormControlInput1" placeholder="nom@email.com" required="required">
-                        </div> -->
+                        </div>
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Raisons du contact</label>
                             <select id="raison" name="raison" class="form-control" id="exampleFormControlSelect1">
@@ -63,7 +64,67 @@
                                 rows="5" required="required"></textarea>
                         </div>
                         <input class="btn btn-primary btn-lg" type="submit" value="Envoyer">
-                    </form>
+                    </form> -->
+
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../assets/img/S7.jpg" class="img-fluid rounded-start" alt="logocontactform">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center;">Formulaire de contact</h5>
+
+                                    <form id="formContact" action="#" method="post" enctype="text/plain"
+                                        onsubmit="sendMail()">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Nom</label>
+                                            <input type="text" id="nom" name="nom" class="form-control"
+                                                id="exampleFormControlInput1" placeholder="Votre prénom..."
+                                                required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Prénom</label>
+                                            <input type="text" id="prenom" name="prenom" class="form-control"
+                                                id="exampleFormControlInput1" placeholder="Votre nom..."
+                                                required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Raisons du contact</label>
+                                            <select id="raison" name="raison" class="form-control"
+                                                id="exampleFormControlSelect1">
+                                                <option>Je souhaite donner mon avis</option>
+                                                <option>Juste comme ça</option>
+                                                <option>Je souhaite rentrer en contact</option>
+                                                <option>Autre raisons...</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Sujet de votre message</label>
+                                            <textarea id="subject" name="subject" class="form-control"
+                                                id="exampleFormControlTextarea1" rows="5"
+                                                required="required"></textarea>
+                                        </div>
+                                        <input class="btn btn-primary btn-lg" type="submit" value="Envoyer">
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
 
             </div>
