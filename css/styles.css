@@ -47,12 +47,13 @@ a:hover {
 .sticky-top {
   position: -webkit-sticky;
   position: sticky;
-  top: 75px;
+  top: 80px;
   z-index: 1020;
 }
 .img-fluid {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 /* ******************************FOOTER*********************** */
 footer{
@@ -142,8 +143,12 @@ footer{
 }
 /* ************************PERSONNAGES*************************** */
 #personnages {
-  background: url(../assets/img/character/character.jpg) repeat;
-  background-size: 100%;
+  background: url(../assets/img/character/character.png) no-repeat ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 #personnages > div > div > div > h1 {
   text-align: center;
@@ -220,7 +225,6 @@ div > h3 {
 }
 div > img {
   float: left;
-  padding: 10px;
 }
 /* ****************************LIEUX******************************** */
 table > tbody > tr > td > img{
@@ -266,7 +270,23 @@ table > tbody > tr > td > img{
 #col > div.main > h2 {
   padding-top: 20px;
 }
-/* **************************************************************** */
+table > tbody > tr > td > img, #img01, #img02, #img03, #img04, #img05, #img06, #img07, #img08, #img09, #img10, #img11, #img12, #img13, #img14, #img15, #img16  {
+  border-radius: 5px;
+}
+/* **************************SAISONS********************************** */
+#saisons {
+  background: url(../assets/img/658241.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+#saisons > div > div > div > div > div > div > img {
+  max-height: 303px;
+  max-width: 217px;
+  border-radius: 10px;
+}
+/* ***************************************************************** */
 
 
 
@@ -280,6 +300,9 @@ table > tbody > tr > td > img{
 
 
 
+
+
+/* **************************A VOIR POUR QUOI C'EST ET OU LE METTRE, RANGER********************************** */
 .text-white-75 {		
   color: white;		
 }
