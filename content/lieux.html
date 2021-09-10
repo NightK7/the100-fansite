@@ -23,8 +23,33 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <div id="navbar"></div>
+    <!-- Navigation spéciale pour les lieux-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <a href="../index.html">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">THE 100</h5>
+            </a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="dropdown mt-3 d-grid gap-2">
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/saisons.html';">Saisons</button>
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/lieux.html';">Lieux</button>
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/clans.html';">Clans</button>
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/personnages.html';">Personnages</button>
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/sondages.html';">Sondages</button>
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/news.html';">News</button>
+                <button class="btn btn-primary" type="button"
+                    onclick="location.href = '../content/contact.html';">Contact</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Lieux-->
     <section id="lieux">
@@ -67,6 +92,8 @@
             </div>
             <!-- AFFICHAGE INFOS AU MILIEU -->
             <div class="main">
+                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Menu</button>
                 <h2>Description du lieu :</h2>
                 <!-- CAMP100 -->
                 <div id="camp100" style="display: none;">
