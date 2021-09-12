@@ -284,7 +284,12 @@ table > tbody > tr > td > img, #img01, #img02, #img03, #img04, #img05, #img06, #
 #saisons > div > div > div > div > div > div > img {
   max-height: 303px;
   max-width: 217px;
-  border-radius: 10px;
+}
+#saisons > div:nth-child(3), #saisons > div:nth-child(4), #saisons > div:nth-child(5){
+  max-width: max-content;
+}
+#saisons > div > div > div{
+  margin: 50px;
 }
 /* ***************************************************************** */
 
