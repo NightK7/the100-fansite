@@ -297,11 +297,39 @@ table > tbody > tr > td > img, #img01, #img02, #img03, #img04, #img05, #img06, #
 #saisons > div > div > div{
   margin: 50px;
 }
-/* ***************************************************************** */
-
-
-
-
+/* ***************************HOME PAGE********************************** */
+header.masthead {		
+  height: 100%;
+  padding-top: 10rem;		
+  padding-bottom: calc(10rem - 4.5rem);		
+  background: url("../assets/img/main_title.jpg");		
+  background-position: center;		
+  background-repeat: no-repeat;		
+  background-attachment: fixed;		
+  background-size: cover;		
+}
+header.masthead h1, header.masthead .h1 {		
+  font-size: 2.25rem;		
+}
+@media (min-width: 992px) {		
+  header.masthead {		
+    height: 100vh;		
+    min-height: 40rem;		
+    padding-top: 4.5rem;		
+    padding-bottom: 100px;
+  }		
+  header.masthead p {		
+    font-size: 1.15rem;		
+  }		
+  header.masthead h1, header.masthead .h1 {		
+    font-size: 3rem;		
+  }		
+}
+@media (min-width: 1200px) {		
+  header.masthead h1, header.masthead .h1 {		
+  font-size: 3.5rem;		
+  }		
+}
 
 
 
@@ -397,37 +425,6 @@ hr.divider-light {
     color: #0d6efd;		
   }		
 }	
-header.masthead {		
-  padding-top: 10rem;		
-  padding-bottom: calc(10rem - 4.5rem);		
-  background: url("../assets/img/main_title.jpg");		
-  background-position: center;		
-  background-repeat: no-repeat;		
-  background-attachment: scroll;		
-  background-size: cover;		
-}
-header.masthead h1, header.masthead .h1 {		
-  font-size: 2.25rem;		
-}
-@media (min-width: 992px) {		
-  header.masthead {		
-    height: 100vh;		
-    min-height: 40rem;		
-    padding-top: 4.5rem;		
-    padding-bottom: 100px;
-  }		
-  header.masthead p {		
-    font-size: 1.15rem;		
-  }		
-  header.masthead h1, header.masthead .h1 {		
-    font-size: 3rem;		
-  }		
-}
-@media (min-width: 1200px) {		
-  header.masthead h1, header.masthead .h1 {		
-  font-size: 3.5rem;		
-  }		
-}
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {		
   max-width: 1920px;		
 }
