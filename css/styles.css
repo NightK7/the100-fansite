@@ -55,6 +55,12 @@ a:hover {
   height: 100%;
   border-radius: 5px;
 }
+.modal-header {
+  background-color: #0d6efd;
+}
+.modal-title {
+  color: white;
+}
 /* ******************************FOOTER*********************** */
 footer{
   background-color: #0d6efd;
@@ -275,7 +281,7 @@ table > tbody > tr > td > img, #img01, #img02, #img03, #img04, #img05, #img06, #
 }
 /* **************************SAISONS********************************** */
 #saisons {
-  background: url(../assets/img/658241.jpg) no-repeat;
+  background: url(../assets/img/saisons/seasons.jpg) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
