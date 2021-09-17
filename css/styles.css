@@ -211,26 +211,21 @@ footer{
 }
 /* ************************CLANS******************************** */
 #clans {
-  background: url(../assets/img/news/news.jpg) no-repeat;
+  background: url(../assets/img/clans/clans.jpg) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
-.container_Clan{
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  margin-top: 25px;
+#content_clans{
+  background-color: white;
+  margin: 25px;
+  border-radius: 0px 15px 15px 15px;
 }
-.container_Clan:hover{
-  transform: scale(1.01);
-  box-shadow: 5px 4px 4px grey;
-}
-div > h3 {
+#logo_clans{
+  transform: scale(1.2);
   text-align: center;
-}
-div > img {
-  float: left;
+  margin: 25px 100px;
 }
 /* ****************************LIEUX******************************** */
 table > tbody > tr > td > img{
@@ -330,39 +325,7 @@ header.masthead h1, header.masthead .h1 {
   font-size: 3.5rem;		
   }		
 }
-
-
-
-
-
-
-
-
-
-
-
-/* **************************A VOIR POUR QUOI C'EST ET OU LE METTRE, RANGER********************************** */
-.text-white-75 {		
-  color: white;		
-}
-.btn-xl {		
-  padding: 1.25rem 2.25rem;		
-  font-size: 0.85rem;		
-  font-weight: 700;		
-  text-transform: uppercase;		
-  border: none;		
-  border-radius: 10rem;		
-}
-hr.divider {		
-  height: 0.2rem;		
-  max-width: 3.25rem;		
-  margin: 1.5rem auto;		
-  background-color: #0d6efd;		
-  opacity: 1;		
-}
-hr.divider-light {		
-  background-color: #fff;		
-}
+/* ***************************NAVBAR********************************** */
 #mainNav {		
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);		
   background-color: #fff;		
@@ -425,6 +388,7 @@ hr.divider-light {
     color: #0d6efd;		
   }		
 }	
+/* ***************************HOME PAGE - CREW IMAGE********************************** */
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {		
   max-width: 1920px;		
 }
@@ -459,4 +423,26 @@ hr.divider-light {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {		
   opacity: 0.85;		
+}
+/* **************************A VOIR POUR QUOI C'EST ET OU LE METTRE, RANGER********************************** */
+.text-white-75 {		
+  color: white;		
+}
+.btn-xl {		
+  padding: 1.25rem 2.25rem;		
+  font-size: 0.85rem;		
+  font-weight: 700;		
+  text-transform: uppercase;		
+  border: none;		
+  border-radius: 10rem;		
+}
+hr.divider {		
+  height: 0.2rem;		
+  max-width: 3.25rem;		
+  margin: 1.5rem auto;		
+  background-color: #0d6efd;		
+  opacity: 1;		
+}
+hr.divider-light {		
+  background-color: #fff;		
 }
