@@ -22,6 +22,13 @@ body {
 }
 
 /* **************************OVERRIDE BOOTSTRAP****************** */
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  opacity: 0.25;
+}
+
 .py-5 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
