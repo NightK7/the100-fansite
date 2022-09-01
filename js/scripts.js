@@ -1,3 +1,4 @@
+// LA NAVBAR
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink (retrecir) function
